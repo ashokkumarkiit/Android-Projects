@@ -16,3 +16,15 @@
 - Recycler View
 - Many more 
 ** Exception Handling - Handled almost all the user interactiona and application logic that can lead to App crash.
+
+# Application - 
+1) Temperature Convertor
+   - App used to converting temperature for F to C and C to F.
+2) Note-Pad App
+   - App used to store notes locally. Option to edit and delete notes.
+3) Stock Watch App
+   - App used to check the stocks on realtime for all the added stocks on watch list.
+4) Know Your Government
+   - App used for getting the details of the US government based on area using location services.
+5) News Gateway
+   - App used to fetch the latest news based on the different news sources.

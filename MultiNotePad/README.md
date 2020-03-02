@@ -1,7 +1,7 @@
 # Multi-Note Pad Application (JAVA)
 
 ## Home Screen
-<img src="./Screenshot/image1.png" width="200" height="400" />
+<img src="./screenshot/image1.png" width="200" height="400" />
 
 ## Features
 

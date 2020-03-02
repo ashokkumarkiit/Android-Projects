@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clOfficialDetails"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    tools:context=".OfficialActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:id="@+id/tvLocationInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="sample text"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvOfficeName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvLocationInfo"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Office Name"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/llOfficialNameAndParty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvOfficeName"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/tvOfficialName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvOfficeName"
+                    android:layout_weight=".5"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Official Name"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvOfficialParty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvOfficialName"
+                    android:layout_weight=".5"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Official Party"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llAddressPhoneEmailWeb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/llOfficialNameAndParty"
+                android:weightSum="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".4">
+
+                    <LinearLayout
+                        android:id="@+id/llAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".3"
+                            android:padding="5dp"
+                            android:text="Address:"
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/tvAddress"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".7"
+                            android:padding="5dp"
+                            android:text="sample address jdhask askjdh kajhd akdjh akjdh asdjhasdkjashdkjhd kadh akd d akdh a kdhad "
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/llAddress"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".3"
+                            android:padding="5dp"
+                            android:text="Phone:"
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/tvPhone"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".7"
+                            android:padding="5dp"
+                            android:text="12345678"
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/llPhone"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".3"
+                            android:padding="5dp"
+                            android:text="Email:"
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/tvEmail"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".7"
+                            android:padding="5dp"
+                            android:text="test@test.com"
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llWebsite"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/llEmail"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".3"
+                            android:padding="5dp"
+                            android:text="Website:"
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/tvWebsite"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".7"
+                            android:padding="5dp"
+                            android:text="www.google.com"
+                            android:textColor="@android:color/white"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlOfficialImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvOfficialParty"
+                    android:layout_weight=".6"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imgvOfficialImage"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/missingimage" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llChannels"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/llAddressPhoneEmailWeb"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:id="@+id/llYoutube"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/youtube" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llGooglePlus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/googleplus" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llTwitter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/twitter" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llFacebook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".25"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/facebook" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:id="@+id/clOfficialDetails"
+    tools:context=".PhotoDetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/tvLocationInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="sample text"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvOfficeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvLocationInfo"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Office Name"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvOfficialName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvOfficeName"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Official Name"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/rlOfficialImage"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/tvOfficialName"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgvOfficialImage"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:src="@drawable/missingimage" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

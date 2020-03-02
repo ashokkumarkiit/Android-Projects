@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">KnowYourGovernment</string>
+    <string name="strMenuAbout">About</string>
+    <string name="strMenuSearch">Search</string>
+    <string name="API_KEY">AIzaSyDbO2oZDxO-8-NwP3Z9NlOMM5NjbHHyjUQ</string>
+    <string name="google_civic_api_url">https://www.googleapis.com/civicinfo/v2/representatives?key=%1$s&amp;address=%2$s</string>
+    <string name="strAboutAppTitle">Know Your Government</string>
+    <string name="strAboutAppCopyrightStatement">\u00A9 %1$s, Ashok Kumar"</string>
+    <string name="strVersionDetails">Version %1$s</string>
+    <string name="strDateFormatOnlyYear">yyyy</string>
+    <string name="strIntentExtraLocationDetails">locationDetails</string>
+    <string name="strIntentExtraPosition">position</string>
+    <string name="strIntentExtraOfficesName">officesName</string>
+    <string name="strIntentExtraOfficialDetails">officialDetails</string>
+    <string name="strNoDataProvided">No Data Provided</string>
+    <string name="strNoDataForLocation">No Data For Location</string>
+    <string name="strNoDataForLocationMessage">No data available for requested location.</string>
+    <string name="strRecyclerOfficialsName">%1$s (%2$s)</string>
+    <string name="strRecyclerOfficialsNameWithoutParty">%1$s</string>
+    <string name="strNoNetworkConnectionTitle">No Network Connection</string>
+    <string name="strNoNetworkConnection">Data cannot be accessed/loaded without an internet connection.</string>
+    <string name="strEnableLocationTitle">Enable Location</string>
+    <string name="strEnableLocationBody">Your Locations Settings is set to \'Off\'.\nPlease Enable Location to use this app</string>
+    <string name="strEnableLocationButton">Location Settings</string>
+    <string name="strSearchDialogMessage">Enter a City, State or a Zip Code:</string>
+</resources>

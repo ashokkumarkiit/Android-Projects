@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rlRecyclerRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/recycler_selector"
+        android:layout_margin="2dp">
+        <TextView
+            android:id="@+id/tvOfficeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="President of United States"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:id="@+id/tvOfficialsName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvOfficeName"
+            android:padding="5dp"
+            android:textSize="18sp"
+            android:text="Donald J. Trump (Republican)"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="right"/>
+        <ImageView
+            android:id="@+id/ivSaperator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/separator"
+            android:layout_below="@+id/tvOfficialsName"/>
+    </RelativeLayout>
+
+</LinearLayout>

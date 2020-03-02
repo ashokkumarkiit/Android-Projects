@@ -4,6 +4,8 @@
 
 ![Image Detail](./Screenshot/image2.png)
 
+<img src="./Screenshot/image2.png" width="200" height="400" />
+
 ## App Features:-
 
 - This APP acquire and display an interactive list of political officials that represent the current location (or a specified location) at each level of government.

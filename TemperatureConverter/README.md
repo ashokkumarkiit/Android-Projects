@@ -3,7 +3,7 @@
 ## This App allows user to convert between Fahrenheit and Celsius temperatures.
 
 
-![App Screen](/screenshots/image1.png)
+![App Screen](./screenshots/image1.png)
 
 ## Features 
 

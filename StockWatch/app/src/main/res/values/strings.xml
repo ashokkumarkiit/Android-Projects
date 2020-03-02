@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">StockWatch</string>
+    <string name="token">pk_c1636c6497d1493e9daefad4fae80f93</string>
+    <string name="strAppFirstLoading">Please wait. App is getting ready for the first time.\n Downloading list of stock symbols.</string>
+    <string name="strStockSymbolLoadErrorMessage">Unable to load stock symbols at this moment.\n Tap to try again.</string>
+    <string name="strStockPriceChangeWithPercentage" formatted="false">%1$s(%2$s%%)</string>
+    <string name="strStockDownloadURL">https://cloud.iexapis.com/v1/stock/%1$s/quote?displayPercent=true&amp;token=%2$s</string>
+    <string name="strMenuAddStock">Add Stock</string>
+    <string name="strTitleNoNetwork">No Network Connection</string>
+    <string name="strStockAddNetworkError">Stock cannot be added without a network connection.</string>
+    <string name="strSymbolNotFoundTitle">Symbol Not Found : %1$s</string>
+    <string name="strSymbolNotFoundBody">Data not found for the searched symbol.</string>
+    <string name="strDuplicateStockTitle">Duplicate Record</string>
+    <string name="strDuplicateStockMessage">Stock Symbol %1$s is already displayed.</string>
+    <string name="strDeletStockTitle">Delete Stock</string>
+    <string name="strDeleteStockBody">Delete Stock Symbol %1$s ?</string>
+    <string name="strStockURL">http://www.marketwatch.com/investing/stock/%1$s</string>
+    <string name="strStockUpdateNetworkError">Stocks cannot be update without a network connection.</string>
+    <string name="strNoStocksAvailable">No Stocks Available !!!</string>
+    <string name="strLoadSymbolNetworkError">Stock symbols cannot be loaded without a network connection.</string>
+</resources>

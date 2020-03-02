@@ -1,9 +1,9 @@
-###Temperature Converter - APP (JAVA)
+# Temperature Converter - APP (JAVA)
 
-##This App allows user to convert between Fahrenheit and Celsius temperatures.
+## This App allows user to convert between Fahrenheit and Celsius temperatures.
 
 
-![Image description](/screenshots/image1.png)
+![App Screen](/screenshots/image1.png)
 
 ## Features 
 

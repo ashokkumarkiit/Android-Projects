@@ -1,9 +1,9 @@
 # Know Your Government App - JAVA
 
-![Image Home](./Screenshot/image1.png)
+## Home Screen
+<img src="./Screenshot/image1.png" width="200" height="400" />
 
-![Image Detail](./Screenshot/image2.png)
-
+## Detail Screen
 <img src="./Screenshot/image2.png" width="200" height="400" />
 
 ## App Features:-

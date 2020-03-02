@@ -2,7 +2,7 @@
     <string name="app_name">KnowYourGovernment</string>
     <string name="strMenuAbout">About</string>
     <string name="strMenuSearch">Search</string>
-    <string name="API_KEY">AIzaSyDbO2oZDxO-8</string>
+    <string name="API_KEY">AIzaSyDbO2oZDxO-8-NwP3Z9NlOMM5NjbHHyjUQ</string>
     <string name="google_civic_api_url">https://www.googleapis.com/civicinfo/v2/representatives?key=%1$s&amp;address=%2$s</string>
     <string name="strAboutAppTitle">Know Your Government</string>
     <string name="strAboutAppCopyrightStatement">\u00A9 %1$s, Ashok Kumar"</string>

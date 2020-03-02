@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">News Gateway</string>
+    <string name="strAPIKey">de954d1a67604d3fb961233d5e7ca93c</string>
+    <string name="strSourceURL">https://newsapi.org/v2/sources?language=en&amp;country=us&amp;apiKey=%1$s</string>
+    <string name="strArticlesURL">https://newsapi.org/v2/top-headlines?pageSize=10&amp;sources=cnn&amp;apiKey=%1$s</string>
+    <string name="strDrawerOpen">Open drawer</string>
+    <string name="strDrawerClose">Close drawer</string>
+    <string name="strNodata">No data available</string>
+</resources>

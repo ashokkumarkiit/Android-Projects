@@ -1,6 +1,7 @@
 # Stock Watch App - JAVA
 
-![App Image](./screenshot/image1.png)
+## Home Screen
+<img src="./screenshot/image1.png" width="200" height="400" />
 
 ## App Features:-
 

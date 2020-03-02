@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Temperature Converter</string>
+    <string name="strHeader">Select °F or °C for Conversion</string>
+    <string name="strLblConValue">Converted Value</string>
+    <string name="strF">°F</string>
+    <string name="strC">°C</string>
+    <string name="strFValue">%1$.1f °F</string>
+    <string name="strCValue">%1$.1f °C</string>
+    <string name="strCtoF">"Conversion changed --> Celsius(°C) to Fahrenheit (°F)</string>
+    <string name="strFtoC">Conversion changed --> Fahrenheit(°F) to Celsius(°C)</string>
+    <string name="strSelectConversion">Select conversion type (°F to °C) or (°C to °F)</string>
+    <string name="strNoValue">Enter some value to convert !!!</string>
+    <string name="strCelChecked">Celsius is checked</string>
+    <string name="strFahChecked">Fahrenheit is checked</string>
+    <string name="strFahtoCel">Fahrenheit(°F) to Celsius(°C)</string>
+    <string name="strCeltoFah">Celsius(°C) to Fahrenheit(°F)</string>
+    <string name="strInputHint">I/P to convert</string>
+    <string name="strBtnConvert">Convert</string>
+    <string name="strHistoryLbl"><u>Conversion History</u></string>
+</resources>

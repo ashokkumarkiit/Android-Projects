@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Multi Notes</string>
+    <string name="strMenuCreate">Create</string>
+    <string name="strMenuHelp">Help</string>
+    <string name="strMenuSave">Save</string>
+    <string name="strActivityEdit">Edit Note</string>
+    <string name="strActivityAbout">About</string>
+    <string name="strNoteTitle">Note Title</string>
+    <string name="strNoteDescription">Note Description</string>
+    <string name="strNotePadFileName">multinotepad.json</string>
+    <string name="strNotePadFileEncoding">UTF-8</string>
+    <string name="strNotePadSaved">Notepad Saved Successfully</string>
+    <string name="strFileNotFound">File not found</string>
+    <string name="strErrorExecutingOperation">Error occured saving your note. Try after some time.</string>
+    <string name="strJsonKeyTitle">noteTitle</string>
+    <string name="strJsonKeyDescription">noteDescription</string>
+    <string name="strJsonKeyLastUpdated">noteLastUpdated</string>
+    <string name="strIntentKeyTitle">title</string>
+    <string name="strIntentKeyDescription">description</string>
+    <string name="strIntentKeyLastUpdated">lastUpdated</string>
+    <string name="strIntentKeylistNoteBean">listNoteBean</string>
+    <string name="strDateFormat">MM/dd/yyyy HH:mm:ss</string>
+    <string name="strDateFormatToBeDisplayed">EEE MMM dd, hh:mm a</string>
+    <string name="strDateFormatOnlyYear">yyyy</string>
+    <string name="strButtonYes">YES</string>
+    <string name="strButtonNo">NO</string>
+    <string name="strNoteDeleteMessage">Are you sure, you want to delete note \"%1$s\"</string>
+    <string name="strNoteNotSaved">Your note is not saved! Save note \"%1$s\"</string>
+    <string name="strButtonSave">SAVE</string>
+    <string name="strButtonDiscard">DISCARD</string>
+    <string name="strDialogSaveTitle">Un-Saved Changes !</string>
+    <string name="strUnTitleSaveMsg">Un-titled activity was not saved.</string>
+    <string name="strImageViewConDesc">AboutUsBackground</string>
+    <string name="strAboutAppTitle">Multi Notes</string>
+    <string name="strAboutAppCopyrightStatement">\u00A9 %1$s, Ashok Kumar"</string>
+    <string name="strVersionDetails">Version %1$s</string>
+</resources>
